@@ -1,0 +1,59 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*----Calculate Button style----*/
+.calculate {
+	-moz-box-shadow: 0px 1px 0px 0px #6cc7f5;
+	-webkit-box-shadow: 0px 1px 0px 0px #6cc7f5;
+	box-shadow: 0px 1px 0px 0px #6cc7f5;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1cb3ff), color-stop(1, #067eba));
+	background:-moz-linear-gradient(top, #1cb3ff 5%, #067eba 100%);
+	background:-webkit-linear-gradient(top, #1cb3ff 5%, #067eba 100%);
+	background:-o-linear-gradient(top, #1cb3ff 5%, #067eba 100%);
+	background:-ms-linear-gradient(top, #1cb3ff 5%, #067eba 100%);
+	background:linear-gradient(to bottom, #1cb3ff 5%, #067eba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1cb3ff', endColorstr='#067eba',GradientType=0);
+	background-color:#1cb3ff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #074f73;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6cc7f5;
+}
+.calculate:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #067eba), color-stop(1, #1cb3ff));
+	background:-moz-linear-gradient(top, #067eba 5%, #1cb3ff 100%);
+	background:-webkit-linear-gradient(top, #067eba 5%, #1cb3ff 100%);
+	background:-o-linear-gradient(top, #067eba 5%, #1cb3ff 100%);
+	background:-ms-linear-gradient(top, #067eba 5%, #1cb3ff 100%);
+	background:linear-gradient(to bottom, #067eba 5%, #1cb3ff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#067eba', endColorstr='#1cb3ff',GradientType=0);
+	background-color:#067eba;
+}
+.calculate:active {
+	position:relative;
+	top:1px;
+}
+
+/*----Dropddown options style----*/
+.drop select {
+		border: 0 !important;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+		background: #0088cc url(select-arrow.png) no-repeat 90% center;
+		width: 100px; /*Width of select dropdown to give space for arrow image*/
+		text-indent: 0.01px; /* Removes default arrow from firefox*/
+		text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+		color: #FFF;
+		border-radius: 15px;
+		padding: 5px;
+		box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+	}
